@@ -1,5 +1,7 @@
 
 import lession1.*;
+import org.openqa.selenium.*;
+
 
 import java.util.Scanner;
 

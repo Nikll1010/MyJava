@@ -14,9 +14,9 @@ import java.net.InterfaceAddress;
 
  */
 public class MyInternet {
-    InetAddress inetAddress = InetAddress().getByName("www.baidu.com");
-    static String a = inetAddress.toString();
-    public static void main(String[] args) {
-        System.out.println(a);
-    }
+//    InetAddress inetAddress = new InetAddress().getByName("www.baidu.com");
+//    static String a = inetAddress.toString();
+//    public static void main(String[] args) {
+//        System.out.println(a);
+//    }
 }
