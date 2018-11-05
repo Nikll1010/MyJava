@@ -27,6 +27,7 @@ public class openFirefox {
         */
         //初始化一个浏览器实例
         WebDriver driver = new FirefoxDriver();
+//        WebDriver driver = new ChromeDriver();
         //最大化窗口
         driver.manage().window().maximize();
         //设置隐形等待时间
@@ -37,7 +38,7 @@ public class openFirefox {
         System.out.println("当前页面的标题是："+ driver.getTitle());
 
         //关闭并退出浏览器
-        driver.quit();
+//        driver.quit();
     }
 
 }
