@@ -38,6 +38,11 @@ public class EleTestByCss {
         System.out.println(driver.getTitle());
         Thread.sleep(2000);
         driver.findElement(By.tagName("body")).sendKeys(Keys.F11);
+
+
+        driver.get("http://news.baidu.com");
+
+        driver.findElement(By.tagName("body")).sendKeys(Keys.F11);
         try {
             String title = "百度一下1，你就知道";
             assert driver.getTitle().equals(title);
