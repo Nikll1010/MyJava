@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b9c4b14-4186-487c-92bd-e4a077137717" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lession2/ElementTest.java" afterDir="false" />
+    <list default="true" id="8b9c4b14-4186-487c-92bd-e4a077137717" name="Default Changelist" comment="练习-find element 元素发送与清除">
+      <change afterPath="$PROJECT_DIR$/src/lession2/ElementOpration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lession2/EleTestByCss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lession2/EleTestByCss.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,27 +81,27 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="ft" value="3" />
-          <entry key="java" value="1562" />
-          <entry key="txt" value="54" />
+          <entry key="java" value="1638" />
+          <entry key="txt" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1562" />
-          <entry key="PLAIN_TEXT" value="54" />
+          <entry key="JAVA" value="1638" />
+          <entry key="PLAIN_TEXT" value="70" />
           <entry key="VTL" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="10" />
-          <entry key="java" value="22" />
+          <entry key="class" value="14" />
+          <entry key="java" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="10" />
-          <entry key="JAVA" value="22" />
+          <entry key="CLASS" value="14" />
+          <entry key="JAVA" value="30" />
         </counts>
       </usages-collector>
     </session>
@@ -110,11 +109,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lession2/ElementTest.java">
+        <entry file="file://$PROJECT_DIR$/src/lession2/ElementOpration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+            <state relative-caret-position="218">
+              <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
               <folding>
+                <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -134,6 +134,7 @@
     <findStrings>
       <find>Person_s</find>
       <find>manage</find>
+      <find>sendKeys</find>
     </findStrings>
     <replaceStrings>
       <replace>Person_S</replace>
@@ -173,8 +174,9 @@
         <option value="$PROJECT_DIR$/src/lession2/BrowserOptionTest.java" />
         <option value="$PROJECT_DIR$/src/lession2/EleTestById.java" />
         <option value="$PROJECT_DIR$/src/lession2/EleTestByXpath.java" />
-        <option value="$PROJECT_DIR$/src/lession2/EleTestByCss.java" />
         <option value="$PROJECT_DIR$/src/lession2/ElementTest.java" />
+        <option value="$PROJECT_DIR$/src/lession2/EleTestByCss.java" />
+        <option value="$PROJECT_DIR$/src/lession2/ElementOpration.java" />
       </list>
     </option>
   </component>
@@ -651,6 +653,13 @@
               <item name="MyJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lession2" type="462c0819:PsiDirectoryNode" />
+              <item name="ElementOpration" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lession2" type="462c0819:PsiDirectoryNode" />
               <item name="ElementTest" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
@@ -659,20 +668,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lession2" type="462c0819:PsiDirectoryNode" />
               <item name="EleTestByCss" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lession2" type="462c0819:PsiDirectoryNode" />
-              <item name="EleTestById" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lession2" type="462c0819:PsiDirectoryNode" />
-              <item name="EleTestByXpath" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
@@ -739,7 +734,7 @@
               <item name="remote" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="handler" type="462c0819:PsiDirectoryNode" />
-              <item name="BySelector" type="1a9f42e2:ClassTreeNode" />
+              <item name="ClickElement" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
@@ -747,10 +742,7 @@
               <item name="selenium-3.8.0-nodeps.jar" type="462c0819:PsiDirectoryNode" />
               <item name="openqa" type="462c0819:PsiDirectoryNode" />
               <item name="selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="remote" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="handler" type="462c0819:PsiDirectoryNode" />
-              <item name="SetWindowSize" type="1a9f42e2:ClassTreeNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
@@ -758,8 +750,8 @@
               <item name="selenium-3.8.0-nodeps.jar" type="462c0819:PsiDirectoryNode" />
               <item name="openqa" type="462c0819:PsiDirectoryNode" />
               <item name="selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="remote" type="462c0819:PsiDirectoryNode" />
-              <item name="RemoteWebDriver" type="1a9f42e2:ClassTreeNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
@@ -767,9 +759,9 @@
               <item name="selenium-3.8.0-nodeps.jar" type="462c0819:PsiDirectoryNode" />
               <item name="openqa" type="462c0819:PsiDirectoryNode" />
               <item name="selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="remote" type="462c0819:PsiDirectoryNode" />
-              <item name="RemoteWebDriver" type="1a9f42e2:ClassTreeNode" />
-              <item name="RemoteTargetLocator" type="1a9f42e2:ClassTreeNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+              <item name="EventFiringWebDriver" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
@@ -777,7 +769,10 @@
               <item name="selenium-3.8.0-nodeps.jar" type="462c0819:PsiDirectoryNode" />
               <item name="openqa" type="462c0819:PsiDirectoryNode" />
               <item name="selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="By" type="1a9f42e2:ClassTreeNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+              <item name="EventFiringWebDriver" type="1a9f42e2:ClassTreeNode" />
+              <item name="EventFiringWebElement" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
@@ -785,7 +780,8 @@
               <item name="selenium-3.8.0-nodeps.jar" type="462c0819:PsiDirectoryNode" />
               <item name="openqa" type="462c0819:PsiDirectoryNode" />
               <item name="selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="Dimension" type="1a9f42e2:ClassTreeNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
@@ -793,15 +789,9 @@
               <item name="selenium-3.8.0-nodeps.jar" type="462c0819:PsiDirectoryNode" />
               <item name="openqa" type="462c0819:PsiDirectoryNode" />
               <item name="selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="Keys" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="selenium-3.8.0-nodeps.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="openqa" type="462c0819:PsiDirectoryNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="WebDriver" type="1a9f42e2:ClassTreeNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="Select" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
@@ -810,106 +800,6 @@
               <item name="openqa" type="462c0819:PsiDirectoryNode" />
               <item name="selenium" type="462c0819:PsiDirectoryNode" />
               <item name="WebElement" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="selenium-server-standalone-3.8.0.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="selenium-server-standalone-3.8.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="selenium-server-standalone-3.8.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="htmlunit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="selenium-server-standalone-3.8.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="htmlunit" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="selenium-server-standalone-3.8.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="htmlunit" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript" type="462c0819:PsiDirectoryNode" />
-              <item name="host" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="selenium-server-standalone-3.8.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="htmlunit" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript" type="462c0819:PsiDirectoryNode" />
-              <item name="host" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="selenium-server-standalone-3.8.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="htmlunit" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript" type="462c0819:PsiDirectoryNode" />
-              <item name="host" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="Option" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-              <item name="Thread" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-              <item name="Throwable" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
@@ -930,8 +820,8 @@
     <property name="SearchEverywhereHistoryKey" value="Option&#9;PSI&#9;JAVA://com.gargoylesoftware.htmlunit.javascript.host.html.Option" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541600908753" />
-    <property name="last_opened_file_path" value="D:/selenium/selenium-html-runner-3.8.0.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541604243879" />
+    <property name="last_opened_file_path" value="D:/selenium/selenium-server-3.8.0/selenium-3.8.0-nodeps-sources.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -949,20 +839,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EleTestByCss">
-    <configuration name="BrowserOptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lession2.BrowserOptionTest" />
-      <module name="javalearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lession2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ElementOpration">
     <configuration name="EleTestByCss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lession2.EleTestByCss" />
       <module name="javalearn" />
@@ -1002,8 +879,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PagePonsionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lession2.PagePonsionTest" />
+    <configuration name="ElementOpration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lession2.ElementOpration" />
+      <module name="javalearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lession2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElementTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lession2.ElementTest" />
       <module name="javalearn" />
       <extension name="coverage">
         <pattern>
@@ -1016,19 +906,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PagePonsionTest" />
-      <item itemvalue="Application.BrowserOptionTest" />
       <item itemvalue="Application.EleTestById" />
       <item itemvalue="Application.EleTestByXpath" />
       <item itemvalue="Application.EleTestByCss" />
+      <item itemvalue="Application.ElementTest" />
+      <item itemvalue="Application.ElementOpration" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ElementOpration" />
+        <item itemvalue="Application.ElementTest" />
         <item itemvalue="Application.EleTestByCss" />
         <item itemvalue="Application.EleTestByXpath" />
         <item itemvalue="Application.EleTestById" />
-        <item itemvalue="Application.BrowserOptionTest" />
-        <item itemvalue="Application.PagePonsionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1059,7 +949,7 @@
       <workItem from="1541303186005" duration="526000" />
       <workItem from="1541422042974" duration="9019000" />
       <workItem from="1541506922758" duration="8133000" />
-      <workItem from="1541596832030" duration="3343000" />
+      <workItem from="1541596832030" duration="6501000" />
     </task>
     <task id="LOCAL-00001" summary="加入selenium">
       <created>1539871246591</created>
@@ -1145,11 +1035,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541599613837</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="练习-find element 举例">
+      <created>1541601030213</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1541601030213</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113374000" />
+    <option name="totallyTimeSpent" value="116532000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1164,7 +1061,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24329759" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24329759" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1178,7 +1075,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932975" weight="0.32907802" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4463807" side_tool="true" visible="true" weight="0.37021276" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.4463807" side_tool="true" visible="true" weight="0.37021276" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5020107" side_tool="true" weight="0.35886526" />
@@ -1235,7 +1132,9 @@
     <MESSAGE value="练习-find element test by id" />
     <MESSAGE value="练习-find element test by LinkText/name" />
     <MESSAGE value="练习-find element test" />
-    <option name="LAST_COMMIT_MESSAGE" value="练习-find element test" />
+    <MESSAGE value="练习-find element 距离" />
+    <MESSAGE value="练习-find element 举例" />
+    <option name="LAST_COMMIT_MESSAGE" value="练习-find element 举例" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/lession1/ageout.java">
@@ -1470,13 +1369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/selenium/selenium-server-3.8.0/selenium-3.8.0-nodeps.jar!/org/openqa/selenium/WebElement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/selenium/selenium-server-3.8.0/selenium-3.8.0-nodeps.jar!/org/openqa/selenium/By.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1495,16 +1387,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-66">
           <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lession2/EleTestByCss.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="23" column="44" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1540,11 +1422,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/CharSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1511">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/selenium/selenium-server-3.8.0/selenium-3.8.0-nodeps.jar!/org/openqa/selenium/SearchContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/selenium/selenium-server-3.8.0/selenium-3.8.0-nodeps.jar!/org/openqa/selenium/WebElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#698#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lession2/EleTestByCss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-552">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lession2/ElementTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        <state relative-caret-position="174">
+          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="42" />
           <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lession2/ElementOpration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
