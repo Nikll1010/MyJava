@@ -5,7 +5,7 @@
 package lession2;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.Test;
+
 
 import java.util.concurrent.TimeUnit;
 
@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
  * @date 2018/10/18 22:02
 
  */
-@Test
+
 public class openFirefox {
     public static void main(String[] args) {
         /**

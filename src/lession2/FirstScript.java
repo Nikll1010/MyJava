@@ -8,7 +8,7 @@ package lession2;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.Test;
+
 
 import java.util.concurrent.TimeUnit;
 
@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
  * @date 2018/10/20 1:12
 
  */
-@Test
+
 public class FirstScript {
     public static void main(String[] args) {
         System.setProperty("webdriver.gecko.driver", ".\\Tools\\geckodriver.exe");

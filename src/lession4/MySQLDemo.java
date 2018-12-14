@@ -12,19 +12,19 @@ public class MySQLDemo {
 
     // JDBC 驱动名及数据库 URL
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://localhost:3306/RUNOOB";
+    static final String DB_URL = "jdbc:mysql://127.0.0.1:3306/nikll?useSSL=false&serverTimezone=UTC";
 
     // 数据库的用户名与密码，需要根据自己的设置
     static final String USER = "root";
-    static final String PASS = "123456";
+    static final String PASS = "root";
 
     public static void main(String[] args) {
         Connection conn = null;
         Statement stmt = null;
         try{
             // 注册 JDBC 驱动
-//            Class.forName("com.mysql.jdbc.Driver");
-            Class.forName(JDBC_DRIVER);
+            Class.forName("com.mysql.cj.jdbc.Driver");
+//            Class.forName(JDBC_DRIVER);
 
             // 打开链接
             System.out.println("连接数据库...");
